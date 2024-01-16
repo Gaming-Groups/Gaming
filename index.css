@@ -53,6 +53,7 @@ header {
 
 body {
     background-color: 	#404040;
+    margin: 0px;
 }
 
 section h1 {
@@ -65,35 +66,20 @@ section h1 {
   flex-wrap: wrap;
   height: 200px;
   justify-content: space-between;
-  gap: 20px;
+
 }
 
 .figuret{
-  width: 150px;
+  width: 350px;
   text-align: center;
   
 }
 
 .figuret img {
-  width: 150px;
+  width: 350px;
   height: 150px;
 }
 
 .figuret figcaption {
-  margin: 5px;
-}
-
-.übergang {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: darkgray;
-}
-
-.übergangf {
-  text-align: center;
-}
-
-.übergangf figcaption {
   margin: 5px;
 }
