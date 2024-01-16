@@ -55,95 +55,15 @@ body {
     background-color: 	#404040;
     margin-top: 150px;
 }
-
-.container h1 {
-  
-
-section h1 {
-  display: flex;
-  padding-left: 38px;
+section figure {
+  float: left;
+  margin-right: 20px; /* Füge einen rechten Abstand hinzu, um den Text vom Bild zu trennen */
 }
 
-.trending {
-  display: flex;
-  flex-wrap: wrap;
-  height: 200px;
-  justify-content: space-between;
-  gap: 20px;
+section article {
+  overflow: hidden; /* Füge diesen Overflow-Wert hinzu, um den Floating-Effekt zu beheben */
 }
-
-.figuret{
-  width: 150px;
-  text-align: center;
-  
-}
-
-.figuret img {
-  width: 150px;
-  height: 150px;
-}
-
-.figuret figcaption {
-  margin: 5px;
-}
-
-.übergang {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: darkgray;
-}
-
-.übergangf {
-  text-align: center;
-}
-
-.übergangf figcaption {
-  margin: 5px;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px;
-  color: white;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: white;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-main {
-  padding: 20px;
-}
-
-figure.container {
-  display: flex;
-  align-items: center;
-}
-
-figure.container img {
-  margin-right: 10px; /* Ändere den Abstand nach Bedarf */
-}
-
-figure.container h1,
-figure.container figcaption {
-  margin: 0;
+hr{
+  clear: left;
+  background-color: aqua;
 }
