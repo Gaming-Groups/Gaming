@@ -53,7 +53,11 @@ header {
 
 body {
     background-color: 	#404040;
+    margin-top: 150px;
 }
+
+.container h1 {
+  
 
 section h1 {
   display: flex;
@@ -96,4 +100,50 @@ section h1 {
 
 .übergangf figcaption {
   margin: 5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+figure.container {
+  display: flex;
+  align-items: center;
+}
+
+figure.container img {
+  margin-right: 10px; /* Ändere den Abstand nach Bedarf */
+}
+
+figure.container h1,
+figure.container figcaption {
+  margin: 0;
 }
