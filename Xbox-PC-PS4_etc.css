@@ -1,0 +1,69 @@
+#logo {
+  float: left;
+}
+
+#login {
+    float: right;
+}
+
+header {
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+
+.navigation {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(5px); /* Verwendung des Blur-Filters */
+    transition: backdrop-filter 0.3s ease; /* Übergangseffekt für den Filter */   
+  }
+
+.navigation:hover {
+    backdrop-filter: blur(0px); /* Bei Hover keine Unschärfe */
+  }
+  
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.navigation li {
+    margin: 10px;
+    padding-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+    
+.navigation li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+.navigation li:hover a {
+    color: rgb(44, 44, 44); /* Farbe für den Link, wenn über das <li> gehovert wird */
+  }
+
+body {
+    background-color: 	#404040;
+    margin-top: 150px;
+}
+section figure {
+  float: left;
+  margin-right: 20px; /* Füge einen rechten Abstand hinzu, um den Text vom Bild zu trennen */
+}
+
+section article {
+  overflow: hidden; /* Füge diesen Overflow-Wert hinzu, um den Floating-Effekt zu beheben */
+}
+hr{
+  clear: left;
+  background-color: aqua;
+}
