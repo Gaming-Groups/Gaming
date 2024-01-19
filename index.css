@@ -21,8 +21,8 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
-    backdrop-filter: blur(5px); /* Verwendung des Blur-Filters */
-    transition: backdrop-filter 0.3s ease; /* Übergangseffekt für den Filter */   
+    backdrop-filter: blur(10px); /* Verwendung des Blur-Filters */
+    transition: backdrop-filter 0.1s ease; /* Übergangseffekt für den Filter */   
   }
 
 .navigation:hover {
@@ -56,8 +56,7 @@ body {
     margin: 0px;
 }
 
-section h1 {
-  display: flex;
+.sectiontrending h1 {
   padding-left: 38px;
 }
 
@@ -66,13 +65,9 @@ section h1 {
   flex-wrap: wrap;
   height: 200px;
   justify-content: space-between;
-
-}
-
-.figuret{
-  width: 350px;
+  margin-bottom: 150px;
+  padding-bottom: 150px;
   text-align: center;
-  
 }
 
 .figuret img {
@@ -81,5 +76,43 @@ section h1 {
 }
 
 .figuret figcaption {
+  margin: 5px;
+}
+
+.abtrennung {
+  background-color: #262626;
+  color: white;
+}
+
+.abtrennungdiv {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: space-between;
+  align-content: center;
+  margin: 150px;
+  text-align: center;
+}
+
+.sectionbestsellers h1{
+  padding-left: 38px;
+}
+
+.bestsellers {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.bestsellersfigure img {
+  width: 350px;
+  height: 150px;
+}
+
+.bestellersfigure figcaption {
   margin: 5px;
 }
