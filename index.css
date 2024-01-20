@@ -73,6 +73,7 @@ body {
 .figuret img {
   width: 350px;
   height: 150px;
+  
 }
 
 .figuret figcaption {
@@ -92,6 +93,9 @@ body {
   align-content: center;
   margin: 150px;
   text-align: center;
+}
+
+.abtrennungfigure {
 }
 
 .sectionbestsellers h1{
