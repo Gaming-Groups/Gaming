@@ -63,7 +63,6 @@ section figure {
 section article {
   overflow: hidden; /* Füge diesen Overflow-Wert hinzu, um den Floating-Effekt zu beheben */
 }
-hr{
+.clear{
   clear: left;
-  background-color: aqua;
 }
