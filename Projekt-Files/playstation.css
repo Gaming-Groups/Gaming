@@ -53,43 +53,22 @@
   
   body {
       background-color: 	#404040;
-      font-size: 20px;
-      margin: 0px;
-      text-align: start;
-
+      margin-top: 150px;
+  }
+  section figure {
+    float: left;
+    margin-right: 20px; /* Füge einen rechten Abstand hinzu, um den Text vom Bild zu trennen */
   }
   
-    .figure {
-    color: white;
-
-}
-
-    .figure h1{
-
-
-}
-    .figure p {
-
-
-}
-
-    .article {
-    color: rgb(255, 255, 255);
-}
-
-    .article div {
-    color: #fdfdfd;
+  section article {
+    overflow: hidden; /* Füge diesen Overflow-Wert hinzu, um den Floating-Effekt zu beheben */
+    color: #ffffff;
+  }
+  hr{
+    clear: left;
+    background-color: aqua;
+  }
+  a {
     text-decoration: none;
-}
-    a {
-        text-decoration: none;
-        color: #ffffff; /* Set your desired text color */
-    }
-    
-    a:hover {
-        text-decoration: underline; /* Add underline on hover if needed */
-    }
-ul {
-    list-style-type: none;
-    font-size: 20px;
-}
+    color: #ffffff; /* Set your desired text color */
+  }
