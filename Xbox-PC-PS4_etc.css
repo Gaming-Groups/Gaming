@@ -161,21 +161,33 @@ td a {
   padding-left: 170px;
   font-size: 20px;
 }
-#div1{
-  width: 50%; 
-  padding: 10px; 
+#div1 {
+  width: 50%;
+  padding: 10px;
 }
 
-#div2{
-  width: 10%; 
-  padding: 10px; 
-  
+#div2 {
+  width: 10%;
+  padding: 10px;
 }
 .containergrid {
   display: grid;
-  grid-template-columns: 600px 300px; 
-  gap: 0px; 
+  grid-template-columns: 600px 300px;
+  gap: 0px;
 }
 .grid-item {
-  padding: 0px; 
+  padding: 0px;
+}
+#div3 {
+  width: 60%;
+  padding: 10px;
+}
+#div4 {
+  width: 20%;
+  padding: 10px;
+}
+.containergrid2 {
+  display: grid;
+  grid-template-columns: 400px 500px;
+  gap: 0px;
 }
