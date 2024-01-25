@@ -1,0 +1,165 @@
+#logo {
+  float: left;
+}
+
+#login {
+    float: right;
+}
+
+header img {
+  width: 100%;
+  height: 500px;
+}
+
+
+.navigation {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(5px); /* Verwendung des Blur-Filters */
+  transition: backdrop-filter 0.3s ease; /* Übergangseffekt für den Filter */    
+  }
+
+.navigation:hover {
+    backdrop-filter: blur(0px); /* Bei Hover keine Unschärfe */
+  }
+  
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.navigation li {
+    margin: 10px;
+    padding-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+    
+.navigation li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+.navigation li:hover a {
+    color: rgb(44, 44, 44); /* Farbe für den Link, wenn über das <li> gehovert wird */
+  }
+
+body {
+    background-color: #333333;
+    margin: 0px;  
+}
+section{
+margin-left: 100px;}
+
+section figure {
+  float: left;
+  margin-right: 20px;
+
+}
+
+section article {
+  overflow: hidden; 
+  color: #ffffff;
+  margin-top: 100px;
+  
+  
+}
+.section article p
+{ text-align: justify; /* Align text to both the left and right edges */
+  max-width: 900px; /* Set a maximum width for better readability on larger screens */
+  margin: 5px; /* Center the container */
+  line-height: 1.5; 
+  padding-bottom: 20px;
+}
+
+hr{
+  clear: left;
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+  color: #ffffff; /* Set your desired text color */
+}
+.section figure figcaption {
+}
+
+h5 {
+  color: orange;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 200px;
+}
+h6 {
+  color: orange;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 350px;
+}
+
+figure{
+  margin-bottom: 20px;
+  border: 5px solid rgb(185, 67, 24);
+  border-radius: 10px; 
+}
+#underline{
+  text-decoration: underline;
+}
+td a:hover {
+  color: rgb(152, 99, 0); 
+}
+td a {
+  color: inherit; 
+  text-decoration: underline; 
+}
+.signup {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.container {
+  position: relative;
+  left: -135px;
+  width: 100%;
+  max-width: 400px;
+  padding-top: 50px;
+  
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #d35207;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+.euro{
+position: absolute;
+padding-left: 170px;  
+font-size: 20px;
+}
