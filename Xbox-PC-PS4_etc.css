@@ -61,21 +61,23 @@ margin-left: 100px;}
 
 section figure {
   float: left;
-  margin-right: 20px; /* Füge einen rechten Abstand hinzu, um den Text vom Bild zu trennen */
-  
+  margin-right: 20px;
+
 }
 
 section article {
-  overflow: hidden; /* Füge diesen Overflow-Wert hinzu, um den Floating-Effekt zu beheben */
+  overflow: hidden; 
   color: #ffffff;
   margin-top: 100px;
-  margin-bottom: 50px;
+  
+  
 }
 .section article p
 { text-align: justify; /* Align text to both the left and right edges */
   max-width: 900px; /* Set a maximum width for better readability on larger screens */
   margin: 5px; /* Center the container */
   line-height: 1.5; 
+  padding-bottom: 20px;
 }
 
 hr{
@@ -101,6 +103,7 @@ h6 {
   font-style: italic;
   margin-left: 350px;
 }
+
 figure{
   margin-bottom: 20px;
   border: 5px solid rgb(185, 67, 24);
@@ -157,6 +160,6 @@ td a {
 }
 .euro{
 position: absolute;
-padding-left: 40px;
-
+padding-left: 170px;  
+font-size: 20px;
 }
