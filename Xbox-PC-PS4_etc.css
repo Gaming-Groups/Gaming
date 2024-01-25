@@ -11,10 +11,6 @@ header img {
   height: 500px;
 }
 
-article {
-  min-height: ;
-}
-
 .navigation {
   text-align: center;
   display: flex;
@@ -96,12 +92,14 @@ h5 {
   font-size: 25px;
   font-style: italic;
   margin-left: 200px;
+  border: #582000;
 }
 h6 {
   color: rgb(185, 67, 24);
   font-size: 25px;
   font-style: italic;
   margin-left: 350px;
+  border: #582000;
 }
 
 figure {
