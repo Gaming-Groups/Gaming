@@ -1,10 +1,9 @@
-By Bruno Dias
-#logo {
+By Bruno Dias #logo {
   float: left;
 }
 
 #login {
-    float: right;
+  float: right;
 }
 
 header img {
@@ -12,8 +11,8 @@ header img {
   height: 500px;
 }
 
-article{
-  min-height: auto;
+article {
+  min-height: ;
 }
 
 .navigation {
@@ -21,80 +20,75 @@ article{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
   backdrop-filter: blur(5px); /* Verwendung des Blur-Filters */
-  transition: backdrop-filter 0.3s ease; /* Übergangseffekt für den Filter */    
-  }
+  transition: backdrop-filter 0.3s ease; /* Übergangseffekt für den Filter */
+}
 
 .navigation:hover {
-    backdrop-filter: blur(0px); /* Bei Hover keine Unschärfe */
-  }
-  
+  backdrop-filter: blur(0px); /* Bei Hover keine Unschärfe */
+}
+
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 .navigation li {
-    margin: 10px;
-    padding-top: 5px;
-    transition: background-color 0.3s ease;
-  }
-    
+  margin: 10px;
+  padding-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
 .navigation li a {
-    text-decoration: none;
-    color: white;
-  }
-  
+  text-decoration: none;
+  color: white;
+}
+
 .navigation li:hover a {
-    color: rgb(44, 44, 44); /* Farbe für den Link, wenn über das <li> gehovert wird */
-  }
+  color: rgb(
+    44,
+    44,
+    44
+  ); /* Farbe für den Link, wenn über das <li> gehovert wird */
+}
 
 body {
-    background-color: #333333;
-    margin: 0px;
-    font-family: sans-serif;  
+  background-color: #333333;
+  margin: 0px;
+  font-family: sans-serif;
 }
-section{
-margin-left: 100px;}
+section {
+  margin-left: 100px;
+}
 
 section figure {
   float: left;
   margin-right: 20px;
-
 }
 
 section article {
-  overflow: hidden; 
+  overflow: hidden;
   color: #ffffff;
   margin-top: 100px;
-  
-  
 }
-.section article p
-{ text-align: justify; /* Align text to both the left and right edges */
+.section article p {
+  text-align: justify; /* Align text to both the left and right edges */
   max-width: 900px; /* Set a maximum width for better readability on larger screens */
   margin: 5px; /* Center the container */
-  line-height: 1.5; 
+  line-height: 1.5;
   padding-bottom: 20px;
 }
 
-hr{
-  clear: left;
-  background-color: aqua;
-}
 a {
   text-decoration: none;
   color: #ffffff; /* Set your desired text color */
-}
-.section figure figcaption {
-
 }
 
 h5 {
@@ -110,20 +104,20 @@ h6 {
   margin-left: 350px;
 }
 
-figure{
+figure {
   margin-bottom: 20px;
   border: 5px solid rgb(185, 67, 24);
-  border-radius: 10px; 
+  border-radius: 10px;
 }
-#underline{
+#underline {
   text-decoration: underline;
 }
 td a:hover {
-  color: rgb(152, 99, 0); 
+  color: rgb(152, 99, 0);
 }
 td a {
-  color: inherit; 
-  text-decoration: underline; 
+  color: inherit;
+  text-decoration: underline;
 }
 .signup {
   align-items: center;
@@ -137,7 +131,6 @@ td a {
   width: 100%;
   max-width: 400px;
   padding-top: 50px;
-  
 }
 
 .container img {
@@ -165,8 +158,8 @@ td a {
   background-color: black;
   color: white;
 }
-.euro{
-position: absolute;
-padding-left: 170px;  
-font-size: 20px;
+.euro {
+  position: absolute;
+  padding-left: 170px;
+  font-size: 20px;
 }
