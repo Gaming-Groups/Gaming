@@ -35,12 +35,12 @@ header img {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row ;
   }
   
 .navigation li {
     margin: 10px;
     padding-top: 5px;
-    transition: background-color 0.3s ease;
   }
     
 .navigation li a {
@@ -49,7 +49,7 @@ header img {
   }
   
 .navigation li:hover a {
-    color: rgb(44, 44, 44); /* Farbe für den Link, wenn über das <li> gehovert wird */
+    color: rgb(237, 111, 0); /* Farbe für den Link, wenn über das <li> gehovert wird */
   }
 
 body {
@@ -100,6 +100,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  justify-content: space-evenly ;
   align-content: center;
   text-align: center;
 }
@@ -152,6 +153,7 @@ body {
   text-align: center;
   padding-bottom: 50px;
   margin-top: 50px;
+  background-color: #666666;
 }
 
 footer {
@@ -160,23 +162,37 @@ footer {
 
 footer p {
   margin-bottom: 0px;
+  color: rgb(237, 111, 0);
 }
 
 .support {
 display: flex;
 flex-direction: column;
-width: 700px;
+list-style-type: none;
+align-items: center;
+}
+
+.support  a {
+  text-decoration: none;
+  color: rgb(237, 111, 0);
 }
 
 .socialmedia {
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  
+  list-style-type: none; 
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.socialmedia img {
+  width: 50px;
+  height: 50px;
 }
 
 .platform{
   display: flex;
   flex-direction: row;
   justify-content: right;
+  list-style-type: none;
 }
