@@ -162,14 +162,20 @@ td a {
   font-size: 20px;
 }
 #div1{
-  width: 50%; /* Jedes Div nimmt 50% der Breite des Containers ein */
-  padding: 10px; /* Optional: Abstand im Inneren der Divs */
+  width: 50%; 
+  padding: 10px; 
 }
 
 #div2{
-  width: 10%; /* Jedes Div nimmt 50% der Breite des Containers ein */
-  padding: 10px; /* Optional: Abstand im Inneren der Divs */
+  width: 10%; 
+  padding: 10px; 
+  
 }
-.containerflex {
-  display: flex;
+.containergrid {
+  display: grid;
+  grid-template-columns: 600px 300px; 
+  gap: 0px; 
+}
+.grid-item {
+  padding: 0px; 
 }
