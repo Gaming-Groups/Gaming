@@ -161,3 +161,15 @@ td a {
   padding-left: 170px;
   font-size: 20px;
 }
+#div1{
+  width: 50%; /* Jedes Div nimmt 50% der Breite des Containers ein */
+  padding: 10px; /* Optional: Abstand im Inneren der Divs */
+}
+
+#div2{
+  width: 10%; /* Jedes Div nimmt 50% der Breite des Containers ein */
+  padding: 10px; /* Optional: Abstand im Inneren der Divs */
+}
+.containerflex {
+  display: flex;
+}
