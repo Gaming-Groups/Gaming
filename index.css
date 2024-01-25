@@ -71,17 +71,23 @@ body {
 }
 
 .figuret img {
-  width: 350px;
-  height: 150px;
-  
+  aspect-ratio: 16/9;
+  max-width: 400px;
+  max-height: 225px;
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
 }
 
 .figuret img:hover{
-
+  transform: scale(1.1);
+  transition: 0,3s ease-in;
 }
 
 .figuret figcaption {
-  margin: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
 }
 
 .abtrennung {
@@ -158,6 +164,10 @@ body {
 
 footer {
   background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  
+  
 }
 
 footer p {
@@ -169,7 +179,7 @@ footer p {
 display: flex;
 flex-direction: column;
 list-style-type: none;
-align-items: center;
+justify-content: center;
 }
 
 .support  a {
@@ -181,8 +191,7 @@ align-items: center;
   display: flex;
   flex-direction: row;
   list-style-type: none; 
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: right;
 }
 
 .socialmedia img {
@@ -193,6 +202,6 @@ align-items: center;
 .platform{
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: left;
   list-style-type: none;
 }
