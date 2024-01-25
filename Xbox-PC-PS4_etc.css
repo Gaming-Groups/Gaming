@@ -1,3 +1,4 @@
+By Bruno Dias
 #logo {
   float: left;
 }
@@ -11,6 +12,9 @@ header img {
   height: 500px;
 }
 
+article{
+  min-height: auto;
+}
 
 .navigation {
   text-align: center;
@@ -54,7 +58,8 @@ header img {
 
 body {
     background-color: #333333;
-    margin: 0px;  
+    margin: 0px;
+    font-family: sans-serif;  
 }
 section{
 margin-left: 100px;}
@@ -89,16 +94,17 @@ a {
   color: #ffffff; /* Set your desired text color */
 }
 .section figure figcaption {
+
 }
 
 h5 {
-  color: orange;
+  color: rgb(185, 67, 24);
   font-size: 25px;
   font-style: italic;
   margin-left: 200px;
 }
 h6 {
-  color: orange;
+  color: rgb(185, 67, 24);
   font-size: 25px;
   font-style: italic;
   margin-left: 350px;
@@ -123,6 +129,7 @@ td a {
   align-items: center;
   text-align: center;
   padding-bottom: 50px;
+  margin-top: 100px;
 }
 .container {
   position: relative;
