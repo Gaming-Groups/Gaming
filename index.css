@@ -58,7 +58,14 @@ body {
 }
 
 .sectiontrending h1 {
-  padding-left: 38px;
+  padding-left: 80px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sectiontrending h1:hover {
+  color: rgb(237, 111, 0);
 }
 
 .trending {
@@ -117,6 +124,13 @@ body {
 
 .sectionreview h1{
   padding-left: 38px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sectionreview h1:hover {
+  color: rgb(237, 111, 0);
 }
 
 .divreview {
@@ -128,8 +142,15 @@ body {
   padding-bottom: 30px;
 }
 
+.figurereview {
+  border: 1px solid;
+  border-radius: 1rem;
+  background-color: #666666;
+}
+
 .figurereview figcaption {
   width: 250px;
+  color: white;
 }
 
 .signup {
