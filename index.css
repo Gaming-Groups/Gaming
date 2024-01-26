@@ -115,28 +115,6 @@ body {
   justify-content: end;
 }
 
-.sectionbestsellers h1{
-  padding-left: 38px;
-}
-
-.bestsellers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.bestsellersfigure img {
-  width: 350px;
-  height: 150px;
-}
-
-.bestellersfigure figcaption {
-  margin: 5px;
-}
-
 .sectionreview h1{
   padding-left: 38px;
 }
@@ -166,8 +144,6 @@ footer {
   background-color: #1a1a1a;
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
 footer p {
@@ -184,6 +160,10 @@ justify-content: center;
 
 .support  a {
   text-decoration: none;
+  color: white;
+}
+
+.support a:hover {
   color: rgb(237, 111, 0);
 }
 
@@ -191,12 +171,21 @@ justify-content: center;
   display: flex;
   flex-direction: row;
   list-style-type: none; 
-  justify-content: right;
+  justify-content: right; 
+  margin-right: 10px;
 }
 
 .socialmedia img {
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  margin-left: 7px;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.1);
+  transition: 0,3s ease-in;
 }
 
 .platform{
@@ -204,4 +193,22 @@ justify-content: center;
   flex-direction: row;
   justify-content: left;
   list-style-type: none;
+}
+
+.platform img {
+  aspect-ratio: 16/9;
+  max-width: 220px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.platform img:hover {
+  transform: scale(1.1);
+  transition: 0,3s ease-in;
+}
+
+#plapple {
+  margin-right: 20px;
 }
