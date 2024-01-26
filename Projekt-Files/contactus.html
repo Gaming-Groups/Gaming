@@ -4,14 +4,13 @@
       <title>Instant Gaming</title>
       <meta charset="utf-8">
       <link rel="icon" type="image/x-icon" href="../Bilder/Contact-Us-Page/favicon.png">
+      <link rel="stylesheet" href="./contact.css"/>
     </head>
 
-      <body>
-        <header class="nav">
-          
-          <a href="../index.html"><img src="../Bilder/Contact-Us-Page/logo.png" alt="Logo" style="width: 100px; height: 100px;"></a>
+      <body>          
 
-          <nav>
+          <nav class="navigation">
+            <a id="logo" href="../index.html"><img src="../Bilder/Contact-Us-Page/instant-gamingV2.png" alt="Logo" style="width: 100px; height: 100px;"></a>
             <ul>
               <li><a href="../Projekt-Files/pc.html">PC</a></li>
               <li><a href="../Projekt-Files/playstation.html">Playstation</a></li> 
@@ -19,17 +18,16 @@
               <li><a href="../Projekt-Files/switch.html">Nintendo</a></li>
               <li><a href="../Projekt-Files/ranking.html">Ranking</a></li>
             </ul>
+            <a id="logo" href="../Projekt-Files/login.html"><img src="../Bilder/Contact-Us-Page/benutzerprofil.png" alt="login" style="width: 50px; height: 50px;"></a>
           </nav>
-
-          <a href="../Projekt-Files/login.html"><img src="../Bilder/Contact-Us-Page/loginicon.jpg" alt="login" style="width: 100px; height: 100px;"></a>
 
         </header>
 
         <main>
-          <article>
-            <h1>Support</h1>
+          <article class="article">
+            <h1 id="support">Support</h1>
             
-              <p>When contacting us, please provide as much information as possible about the issue you are experiencing, such as a <br> description of the problem, screenshots, and any relevant account information. <br><br>
+              <p id="text">When contacting us, please provide as much information as possible about the issue you are experiencing, such as a <br> description of the problem, screenshots, and any relevant account information. <br><br>
 
                 We will do our best to assist you and resolve the issue as quickly as possible. If needed, we may ask for additional information <br> or clarification to help us understand the problem and provide a solution. <br><br>
                 
@@ -38,12 +36,10 @@
                 We're here to help!</p>
           </article>
 
-          <div>
-            <label for="email">E-Mail Adresse:</label><br><br><input type="text" name="Email" id="email" size="50"><br><br><br>
+          <div class="pl">
+            <label for="email">E-Mail Adresse:</label><input type="email" name="Email" id="email" size="50">
 
-            <label for="problem">Your Message:</label><br><br>
-
-            <textarea name="problem" id="problem" cols="50" rows="10"></textarea><br>
+            <label for="problem">Your Message:</label><textarea name="text" id="text" cols="50" rows="10"></textarea>
 
             <button>Submit</button>
           </div>

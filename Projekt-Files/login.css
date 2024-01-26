@@ -1,0 +1,64 @@
+body {
+    background-color: #333333;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+ #joaomario {
+    display: flex;
+
+ }
+ .mainselection{
+    display: flex;
+    flex-direction: column;
+    width: 100vw; 
+
+    margin-top: 150px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.social ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.social ul a {
+    margin: 10px;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.eingabe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+
+.eingabe button{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(237, 111, 0);
+    border: 0px solid rgb(237, 111, 0);
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 50%;
+
+}
